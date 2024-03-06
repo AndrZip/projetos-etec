@@ -9,7 +9,7 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        echo "<h3>Dados Recebidos:</h3>";
+        echo "<h2>Dados Recebidos:</h2>";
         echo "<p>Nome: $nome</p>";
         echo "<p>Rua: $rua</p>";
         echo "<p>Cidade: $cidade</p>";
