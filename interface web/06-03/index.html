@@ -8,8 +8,8 @@
 <body>
     <form action="control.php" method="post">
         Nome: <input type="text" name="nome"><br>
-        Endereço: <input type="text" name="endereço">
-        <input type="text" name="cidade">
+        Endereço: <input type="text" name="rua" placeholder="Rua">
+        <input type="text" name="cidade" placeholder="Cidade">
         <select name="estado">
             <option value="0">Estado</option>
             <option value="1">MG</option>
@@ -17,9 +17,9 @@
             <option value="3">SC</option>
             <option value="4">SP</option>
         </select><br>
-        Telefone: <input type="tel" name="telefone"><br><br>
-        Email: <input type="email" name="email"><br>
-        Senha: <input type="password" name="senha"><br>
+        Telefone: <input type="tel" name="telefone" placeholder="(00) 99148-3071"><br><br>
+        Email: <input type="email" name="email" placeholder="nathan.guilherme@gmail.com"><br>
+        Senha: <input type="password" name="senha" placeholder="########"><br>
         <input type="submit" value="Realizar Login">
     </form>
 </body>
