@@ -10,13 +10,13 @@
         $senha = $_POST['senha'];
 
         echo "<h2>Dados Recebidos:</h2>";
-        echo "<p>Nome: $nome</p>";
-        echo "<p>Rua: $rua</p>";
-        echo "<p>Cidade: $cidade</p>";
-        echo "<p>Estado: $estado</p>";
-        echo "<p>Telefone: $telefone</p>";
-        echo "<p>Email: $email</p>";
-        echo "<p>Senha: $senha</p>";
+        echo "Nome: $nome<br>";
+        echo "Rua: $rua<br>";
+        echo "Cidade: $cidade<br>";
+        echo "Estado: $estado<br>";
+        echo "Telefone: $telefone<br>";
+        echo "Email: $email<br>";
+        echo "Senha: $senha<br>";
     } else {
         echo "Por favor, preencha todos os campos do formulário.";
     }
